@@ -10,7 +10,7 @@ import {
   IRawCellModel,
   MarkdownCell,
   RawCell
-} from 'jupyterlab_cells_datacube';
+} from '@jupyterlab/cells';
 import { CodeEditor, IEditorMimeTypeService } from '@jupyterlab/codeeditor';
 import { IChangedArgs } from '@jupyterlab/coreutils';
 import * as nbformat from '@jupyterlab/nbformat';
