@@ -1,52 +1,24 @@
 {
-  "extends": "../../tsconfigbase",
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "preserveWatchOutput": true,
+    "resolveJsonModule": true,
     "outDir": "lib",
-    "rootDir": "src"
+    "rootDir": "src",
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es2017",
+    "types": ["jest"]
   },
-  "include": ["src/*"],
-  "references": [
-    {
-      "path": "../apputils"
-    },
-    {
-      "path": "../cells"
-    },
-    {
-      "path": "../codeeditor"
-    },
-    {
-      "path": "../coreutils"
-    },
-    {
-      "path": "../docregistry"
-    },
-    {
-      "path": "../nbformat"
-    },
-    {
-      "path": "../observables"
-    },
-    {
-      "path": "../rendermime"
-    },
-    {
-      "path": "../services"
-    },
-    {
-      "path": "../settingregistry"
-    },
-    {
-      "path": "../shared-models"
-    },
-    {
-      "path": "../statusbar"
-    },
-    {
-      "path": "../translation"
-    },
-    {
-      "path": "../ui-components"
-    }
-  ]
+  "include": ["src/*"]
 }
